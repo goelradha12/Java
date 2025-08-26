@@ -20,17 +20,19 @@ class address {
     }
 }
 
-class Human extends address{
+class Person extends address{
     int Id;
     String name;
     Date DOB;
 
-    Human(int Id, String name, Date DOB, String city, String country, String pincode) {
+    Person(int Id, String name, Date DOB, String city, String country, String pincode) {
+        // Super should be the first statement
+        super(city, country, pincode);
+
         this.DOB = DOB;
         this.Id = Id;
         this.name = name;
 
-        super(city, country, pincode);
     }
 
     public void displayInfo() {
@@ -40,7 +42,7 @@ class Human extends address{
 }
 public class superKeyword06 {
     public static void main(String[] args) {
-        Human h1 = new Human(1, "Radha", new Date(), "Bhopal", "India", "121004");
+        Person h1 = new Person(1, "Radha", new Date(), "Bhopal", "India", "121004");
 
         h1.displayAddress();
         h1.displayInfo();
