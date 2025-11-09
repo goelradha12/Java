@@ -5,7 +5,7 @@ public class EvenOdd01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i;
-        System.out.println("Enter a Input to find Even andd Odd: ");
+        System.out.println("Enter a Input to find Even and Odd: ");
         i = sc.nextInt();
 
         

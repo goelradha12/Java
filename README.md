@@ -66,3 +66,24 @@ Salesperson).
 - Q9. Write a program to implement a thread using the Runnable interface.
 - Q10. Create two threads: one to print even numbers and another to print odd numbers up to 50.
 - Q11. Create a program to demonstrate thread synchronization for a banking application (deposit and withdraw).
+
+## Assignment 5
+- Q1. Write a program to implement inter-thread communication using wait() and notify() methods.
+*Applet*
+- Q2. Create a simple applet that displays “Welcome to Java Applet” using paint() method.
+- Q3. Create an applet that accepts name and age using <param> tag and displays them on the applet window.
+- Q4. Write an applet that draws a circle and fills it with a chosen color.
+*JDBC*
+- Q5. Write a JDBC program to connect with MySQL database and create a table students(id, name, marks).
+- Q6. Insert 5 records into the students table using JDBC PreparedStatement.
+- Q7. Retrieve and display all student records where marks > 80.
+- Q8. Update the name and marks of a student with a specific ID using JDBC.
+- Q10. Delete a student record from the table using user input via JDBC and show proper exception handling.
+- Q11. Student Marks Validation (Multiple Custom Exceptions)
+Problem:
+Design a program that takes student marks input (0–100). Throw NegativeMarksException if marks are negative and
+MarksOutOfRangeException if marks > 100.
+- Q12. JDBC Connection Error Handling
+Problem:
+Simulate a JDBC connection to a non-existent database or with wrong credentials and catch ClassNotFoundException and
+SQLException. Print detailed error messages to help the user debug.
